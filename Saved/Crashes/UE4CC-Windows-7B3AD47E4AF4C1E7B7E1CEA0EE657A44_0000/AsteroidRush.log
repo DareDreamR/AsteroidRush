@@ -1,0 +1,998 @@
+﻿Log file open, 02/01/18 13:44:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AsteroidRush
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-856621633) SRandInit(-856621632).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.131404
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UNREAL Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.01-08.14.11:756][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-08.14.11:756][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.01-08.14.11:770][  0]LogInit: Computer: SAMARTH-PC
+[2018.02.01-08.14.11:770][  0]LogInit: User: SAMARTH
+[2018.02.01-08.14.11:770][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.01-08.14.11:770][  0]LogInit: High frequency timer resolution =2.343749 MHz
+[2018.02.01-08.14.11:770][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.01-08.14.11:770][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.01-08.14.11:770][  0]LogMemory: Process Physical Memory: 279.19 MB used, 279.19 MB peak
+[2018.02.01-08.14.11:770][  0]LogMemory: Process Virtual Memory: 273.79 MB used, 273.79 MB peak
+[2018.02.01-08.14.11:770][  0]LogMemory: Physical Memory: 3457.53 MB used,  4662.83 MB free, 8120.36 MB total
+[2018.02.01-08.14.11:770][  0]LogMemory: Virtual Memory: 703.34 MB used,  4662.83 MB free, 134217728.00 MB total
+[2018.02.01-08.14.11:926][  0]LogInit: Using OS detected language (en-US).
+[2018.02.01-08.14.11:926][  0]LogInit: Using OS detected locale (en-IN).
+[2018.02.01-08.14.11:930][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.01-08.14.12:853][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.01-08.14.12:908][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.02.01-08.14.12:908][  0]LogD3D11RHI:       2020/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.01-08.14.12:913][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.02.01-08.14.12:913][  0]LogD3D11RHI:       128/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.01-08.14.12:915][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.01-08.14.12:915][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.01-08.14.12:915][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.01-08.14.12:928][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.01-08.14.12:928][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.01-08.14.12:928][  0]LogWindows: EnumDisplayDevices:
+[2018.02.01-08.14.12:929][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.02.01-08.14.12:929][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.01-08.14.12:929][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.01-08.14.12:929][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.01-08.14.12:929][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.02.01-08.14.12:929][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.01-08.14.12:929][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.01-08.14.12:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.01-08.14.12:970][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.01-08.14.12:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.01-08.14.12:987][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../Unreal Projects/AsteroidRush/Intermediate/Shaders/WorkingDirectory/22820/).
+[2018.02.01-08.14.12:987][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAMARTH/AppData/Local/Temp/UnrealShaderWorkingDir/B03087D04D99065740DE61907084411B/'.
+[2018.02.01-08.14.12:987][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.01-08.14.15:849][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.01-08.14.15:907][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.01-08.14.15:960][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.01-08.14.16:014][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.01-08.14.16:069][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.01-08.14.16:122][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.01-08.14.16:177][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.01-08.14.16:235][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.01-08.14.16:280][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.01-08.14.16:331][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.01-08.14.16:383][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.01-08.14.16:436][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.01-08.14.16:492][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.01-08.14.16:546][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.01-08.14.16:599][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.01-08.14.16:709][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.01-08.14.16:709][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.01-08.14.16:746][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.01-08.14.16:849][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.01-08.14.16:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.01-08.14.16:937][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.01-08.14.16:991][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.01-08.14.17:044][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.01-08.14.17:092][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.01-08.14.17:092][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.01-08.14.17:568][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.01-08.14.17:709][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.01-08.14.17:710][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.01-08.14.17:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/AsteroidRush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.01-08.14.17:710][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.01-08.14.17:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/AsteroidRush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.01-08.14.17:710][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.01-08.14.17:730][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.01-08.14.17:742][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAMARTH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.01-08.14.17:756][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.01-08.14.17:757][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.01-08.14.17:757][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-08.14.17:758][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-08.14.18:118][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.02.01-08.14.18:269][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-08.14.18:690][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.01-08.14.18:730][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.01-08.14.18:730][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.01-08.14.18:730][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.01-08.14.18:730][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.01-08.14.18:730][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.01-08.14.18:733][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.01-08.14.19:283][  0]LogNetVersion: AsteroidRush , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3768261938)
+[2018.02.01-08.14.20:425][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.952766 seconds
+[2018.02.01-08.14.20:437][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.01-08.14.20:437][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.02.01-08.14.20:437][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.01-08.14.20:498][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.01-08.14.23:425][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.01-08.14.23:509][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.01-08.14.24:243][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.01-08.14.24:718][  0]SourceControl: Source control is disabled
+[2018.02.01-08.14.24:718][  0]SourceControl: Source control is disabled
+[2018.02.01-08.14.24:773][  0]SourceControl: Source control is disabled
+[2018.02.01-08.14.24:821][  0]SourceControl: Source control is disabled
+[2018.02.01-08.14.25:475][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.01-08.14.25:753][  0]LogOcInput: OculusInput pre-init called
+[2018.02.01-08.14.26:022][  0]LogEngine: Initializing Engine...
+[2018.02.01-08.14.26:025][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.01-08.14.26:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.01-08.14.26:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.01-08.14.26:483][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.01-08.14.26:490][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-08.14.26:761][  0]LogInit: FAudioDevice initialized.
+[2018.02.01-08.14.31:292][  0]LogDerivedDataCache: Saved boot cache 4.53s 93MB C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.01-08.14.31:314][  0]LogInit: Texture streaming: Enabled
+[2018.02.01-08.14.31:462][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.01-08.14.31:706][  0]LogInit: Transaction tracking system initialized
+[2018.02.01-08.14.32:004][  0]BlueprintLog: New page: Editor Load
+[2018.02.01-08.14.32:968][  0]LocalizationService: Localization service is disabled
+[2018.02.01-08.14.33:754][  0]LogConsoleResponse: Display: 
+[2018.02.01-08.14.33:995][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.01-08.14.33:996][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.01-08.14.33:996][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.01-08.14.35:569][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/' took 0.01s
+[2018.02.01-08.14.35:609][  0]SourceControl: Source control is disabled
+[2018.02.01-08.14.35:611][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/UNREAL Engine/UE_4.17/FeaturePacks/StarterContent.upack)
+[2018.02.01-08.14.35:618][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.02.01-08.14.36:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.02.01-08.14.36:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.02.01-08.14.36:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.02.01-08.14.36:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.02.01-08.14.36:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.02.01-08.14.36:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.02.01-08.14.36:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.02.01-08.14.37:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.02.01-08.14.37:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.02.01-08.14.37:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.02.01-08.14.37:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.02.01-08.14.37:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.02.01-08.14.37:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.02.01-08.14.37:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.02.01-08.14.37:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.02.01-08.14.37:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.02.01-08.14.37:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.02.01-08.14.37:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Fire01.uasset"
+[2018.02.01-08.14.37:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.02.01-08.14.37:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.02.01-08.14.37:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.02.01-08.14.37:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Light01.uasset"
+[2018.02.01-08.14.37:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.02.01-08.14.37:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Light02.uasset"
+[2018.02.01-08.14.37:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.02.01-08.14.37:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.02.01-08.14.37:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.02.01-08.14.37:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.02.01-08.14.37:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.02.01-08.14.37:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.02.01-08.14.38:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.02.01-08.14.38:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.02.01-08.14.38:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.02.01-08.14.38:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Steam01.uasset"
+[2018.02.01-08.14.38:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.02.01-08.14.38:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.02.01-08.14.38:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.02.01-08.14.38:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.02.01-08.14.38:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.02.01-08.14.38:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.02.01-08.14.38:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.02.01-08.14.38:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.02.01-08.14.38:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.02.01-08.14.39:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.02.01-08.14.39:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.02.01-08.14.39:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.02.01-08.14.39:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.02.01-08.14.39:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.02.01-08.14.39:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.02.01-08.14.39:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.02.01-08.14.39:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.02.01-08.14.41:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.02.01-08.14.41:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.02.01-08.14.41:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.02.01-08.14.41:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.02.01-08.14.41:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.02.01-08.14.41:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/StarterMap.umap"
+[2018.02.01-08.14.41:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.02.01-08.14.41:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.02.01-08.14.41:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.02.01-08.14.42:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.02.01-08.14.42:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.02.01-08.14.42:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.02.01-08.14.42:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.02.01-08.14.42:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.02.01-08.14.42:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.02.01-08.14.42:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.02.01-08.14.42:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.02.01-08.14.42:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.02.01-08.14.42:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.02.01-08.14.42:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.02.01-08.14.42:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.02.01-08.14.42:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.02.01-08.14.42:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.02.01-08.14.42:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.02.01-08.14.42:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.02.01-08.14.43:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.02.01-08.14.44:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.02.01-08.14.46:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.02.01-08.14.47:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.02.01-08.14.47:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.02.01-08.14.49:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.02.01-08.14.50:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.02.01-08.14.51:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.02.01-08.14.53:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.02.01-08.14.55:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.02.01-08.14.56:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.02.01-08.14.56:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.02.01-08.14.56:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.02.01-08.14.56:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.02.01-08.14.56:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.02.01-08.14.56:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.02.01-08.14.56:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.02.01-08.14.56:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.02.01-08.14.56:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.02.01-08.14.57:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.02.01-08.14.57:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.02.01-08.14.57:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.02.01-08.14.57:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.02.01-08.14.57:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.02.01-08.14.57:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.02.01-08.14.57:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.02.01-08.14.57:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.02.01-08.14.57:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.02.01-08.14.57:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.02.01-08.14.57:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.02.01-08.14.57:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.02.01-08.14.57:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.02.01-08.14.57:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.02.01-08.14.58:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.02.01-08.14.58:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.02.01-08.14.58:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.02.01-08.14.58:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.02.01-08.14.58:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.02.01-08.14.58:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.02.01-08.14.58:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.02.01-08.14.58:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.02.01-08.14.58:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.02.01-08.14.58:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.02.01-08.14.58:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.02.01-08.14.58:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.02.01-08.14.58:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.02.01-08.14.58:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Door.uasset"
+[2018.02.01-08.14.58:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.02.01-08.14.58:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.02.01-08.14.58:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.02.01-08.14.58:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.02.01-08.14.58:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.02.01-08.14.58:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.02.01-08.14.58:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.02.01-08.14.58:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.02.01-08.14.58:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.02.01-08.14.58:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.02.01-08.14.59:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.02.01-08.14.59:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.02.01-08.14.59:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.02.01-08.14.59:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.02.01-08.14.59:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.02.01-08.14.59:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.02.01-08.14.59:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.02.01-08.14.59:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.02.01-08.14.59:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.02.01-08.14.59:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.02.01-08.14.59:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.02.01-08.14.59:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.02.01-08.14.59:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.02.01-08.14.59:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.02.01-08.14.59:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.02.01-08.14.59:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.02.01-08.14.59:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.02.01-08.14.59:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.02.01-08.14.59:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.02.01-08.14.59:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.02.01-08.14.59:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.02.01-08.15.00:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.02.01-08.15.00:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.02.01-08.15.00:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.02.01-08.15.00:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.02.01-08.15.00:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.02.01-08.15.00:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.02.01-08.15.00:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.02.01-08.15.00:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.02.01-08.15.00:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.02.01-08.15.00:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.02.01-08.15.00:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.02.01-08.15.00:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.02.01-08.15.00:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.02.01-08.15.00:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.02.01-08.15.00:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.02.01-08.15.00:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.02.01-08.15.00:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.02.01-08.15.01:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.02.01-08.15.01:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.02.01-08.15.01:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.02.01-08.15.01:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.02.01-08.15.01:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.02.01-08.15.02:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.02.01-08.15.02:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.02.01-08.15.02:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.02.01-08.15.02:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.02.01-08.15.02:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.02.01-08.15.02:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.02.01-08.15.02:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.02.01-08.15.02:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.02.01-08.15.02:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.02.01-08.15.02:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.02.01-08.15.03:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.02.01-08.15.03:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.02.01-08.15.03:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.02.01-08.15.03:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.02.01-08.15.03:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.02.01-08.15.03:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.02.01-08.15.03:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.02.01-08.15.03:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.02.01-08.15.04:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.02.01-08.15.04:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.02.01-08.15.05:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.02.01-08.15.05:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.02.01-08.15.05:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.02.01-08.15.06:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.02.01-08.15.06:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.02.01-08.15.07:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.02.01-08.15.07:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.02.01-08.15.07:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.02.01-08.15.08:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.02.01-08.15.08:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.02.01-08.15.08:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.02.01-08.15.08:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.02.01-08.15.09:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.02.01-08.15.09:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.02.01-08.15.09:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.02.01-08.15.09:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.02.01-08.15.09:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.02.01-08.15.10:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.02.01-08.15.10:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.02.01-08.15.10:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.02.01-08.15.10:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.02.01-08.15.10:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.02.01-08.15.11:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.02.01-08.15.11:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.02.01-08.15.11:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.02.01-08.15.12:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.02.01-08.15.14:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.02.01-08.15.15:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.02.01-08.15.22:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.02.01-08.15.23:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.02.01-08.15.23:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.02.01-08.15.23:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.02.01-08.15.28:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.02.01-08.15.29:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.02.01-08.15.29:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.02.01-08.15.30:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.02.01-08.15.30:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.02.01-08.15.31:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.02.01-08.15.31:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.02.01-08.15.31:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.02.01-08.15.32:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.02.01-08.15.33:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.02.01-08.15.33:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.02.01-08.15.34:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.02.01-08.15.34:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.02.01-08.15.34:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.02.01-08.15.35:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.02.01-08.15.35:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.02.01-08.15.36:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.02.01-08.15.36:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.02.01-08.15.36:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.02.01-08.15.36:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.02.01-08.15.37:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.02.01-08.15.37:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.02.01-08.15.38:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.02.01-08.15.40:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.02.01-08.15.40:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.02.01-08.15.41:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.02.01-08.15.42:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.02.01-08.15.44:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.02.01-08.15.47:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.02.01-08.15.48:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.02.01-08.15.48:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.02.01-08.15.48:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.02.01-08.15.49:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.02.01-08.15.50:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.02.01-08.15.50:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.02.01-08.15.50:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.02.01-08.15.51:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.02.01-08.15.53:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.02.01-08.15.54:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.02.01-08.15.54:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.02.01-08.15.55:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.02.01-08.15.58:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.02.01-08.15.59:223][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.02.01-08.16.00:908][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2018.02.01-08.16.00:931][  0]LogSavePackage: Save=15.55ms
+[2018.02.01-08.16.00:931][  0]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/Floor_400x400D350DD5147478130E98531A5137B5654.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.02.01-08.16.00:937][  0]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.02.01-08.16.00:937][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.02.01-08.16.00:940][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.01-08.16.01:003][  0]LightingResults: New page: Lighting Build
+[2018.02.01-08.16.01:050][  0]MapCheck: New page: Map Check
+[2018.02.01-08.16.01:050][  0]LightingResults: New page: Lighting Build
+[2018.02.01-08.16.13:307][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-08.16.13:627][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.01-08.16.13:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.01-08.16.13:709][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.024ms to complete.
+[2018.02.01-08.16.13:709][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.768
+[2018.02.01-08.16.18:340][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.01-08.16.18:341][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.01-08.16.20:175][  0]LogCollectionManager: Loaded 0 collections in 0.001291 seconds
+[2018.02.01-08.16.21:323][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Saved/Collections/' took 0.01s
+[2018.02.01-08.16.21:323][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/Developers/SAMARTH/Collections/' took 0.01s
+[2018.02.01-08.16.21:323][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/Collections/' took 0.01s
+[2018.02.01-08.16.21:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.01-08.16.21:334][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2386 classes and 500 folders.
+[2018.02.01-08.16.21:394][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.01-08.16.23:394][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.02.01-08.16.23:466][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.02.01-08.16.23:568][  0]LogSlate: Took 0.074369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.01-08.16.23:591][  0]LogSlate: Took 0.019721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.01-08.16.23:803][  0]LogSlate: Took 0.206998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.01-08.16.23:961][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.02.01-08.16.24:035][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-08.16.24:194][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.01-08.16.24:194][  0]LogLoad: (Engine Initialization) Total time: 136.29 seconds
+[2018.02.01-08.16.24:194][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.01-08.16.24:194][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.01-08.16.24:340][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.01-08.16.24:375][  1]LogAssetRegistry: Asset discovery search completed in 126.2794 seconds
+[2018.02.01-08.16.24:377][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.01-08.16.24:377][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.02.01-10.41.54:411][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.01-10.41.57:434][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-10.41.57:435][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.01-10.41.57:436][527]PIE: New page: PIE session: ThirdPersonExampleMap (01-Feb-2018 9:41:57 pm)
+[2018.02.01-10.41.57:436][527]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.01-10.41.57:474][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037882s)
+[2018.02.01-10.41.57:476][527]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-10.41.57:476][527]LogPlayLevel: PIE: World Init took: (0.002097s)
+[2018.02.01-10.41.57:477][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040735s)
+[2018.02.01-10.41.57:519][527]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-10.41.57:542][527]LogInit: FAudioDevice initialized.
+[2018.02.01-10.41.57:601][527]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-10.41.57:606][527]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.01-16.11.57
+[2018.02.01-10.41.57:607][527]LogWorld: Bringing up level for play took: 0.004350
+[2018.02.01-10.41.57:670][527]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.02.01-10.41.57:671][527]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.31
+[2018.02.01-10.41.57:671][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-10.42.15:477][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-10.42.15:526][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-10.42.46:007][954]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-10.42.46:667][954]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.02.01-10.42.46:667][954]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/RunCharacter.SKEL_RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.02.01-10.42.46:829][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.02.01-10.42.47:040][954]LogSavePackage: Save=206.66ms
+[2018.02.01-10.42.47:040][954]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacterCDE4B2E3434F0DECB5BACAB61226D1E0.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.02.01-10.42.47:043][954]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2018.02.01-10.42.47:052][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.02.01-10.42.48:150][954]LogSavePackage: Save=1083.05ms
+[2018.02.01-10.42.48:152][954]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonCharacterCABF2E454A5A693CFEDFE9A463EE5ADA.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.01-10.42.48:166][954]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.01-10.42.48:199][954]LogSlate: Took 0.031887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.01-10.42.53:732][ 98]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 113 classes and 0 folders.
+[2018.02.01-10.43.01:454][ 98]LogSlate: Took 0.028787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.01-10.43.10:726][ 99]LogSavePackage: Save=152.15ms
+[2018.02.01-10.43.10:726][ 99]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto10C515A75498E0F7E2AB744BBB29D60B7.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.02.01-10.43.10:727][ 99]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.02.01-10.43.10:740][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.278
+[2018.02.01-10.43.10:740][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2018.02.01-10.43.10:759][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2018.02.01-10.43.10:759][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2018.02.01-10.43.10:799][ 99]LogSavePackage: Save=25.28ms
+[2018.02.01-10.43.10:800][ 99]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonGameMode_Auto10169F2BF463819E08D236D866C38144B.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2018.02.01-10.43.10:801][ 99]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2018.02.01-10.43.10:801][ 99]LogFileHelpers: Auto-saving content packages took 0.059
+[2018.02.01-10.43.10:979][ 99]LogSlate: Took 0.152046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.01-10.45.38:704][939]LogRenderer: Reallocating scene render targets to support 964x684 Format 10 NumSamples 1 (Frame:1).
+[2018.02.01-10.48.39:313][732]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-10.50.24:705][890]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-10.50.55:120][475]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.01-10.50.55:124][475]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2018.02.01-10.51.02:710][640]LogMaterial: Warning: Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.01-10.51.02:714][640]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2018.02.01-10.51.36:333][138]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.01-10.57.31:372][188]LogSavePackage: Save=131.02ms
+[2018.02.01-10.57.31:372][188]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto29AE2E60B473E732D5F7CD0835BA1E97B.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.02.01-10.57.31:373][188]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.02.01-10.57.31:377][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.214
+[2018.02.01-10.57.31:377][188]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2018.02.01-10.57.31:380][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.02.01-10.57.31:415][188]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.02.01-10.57.31:415][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.02.01-10.57.31:576][188]LogSavePackage: Save=147.27ms
+[2018.02.01-10.57.31:576][188]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter_Auto2698EDE914A787EFD8DFC668C647D0C23.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto2.uasset'
+[2018.02.01-10.57.31:579][188]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto2.uasset
+[2018.02.01-10.57.31:581][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Water_Lake] ([1] browsable assets)...
+[2018.02.01-10.57.31:628][188]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake]
+[2018.02.01-10.57.31:628][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Water_Lake]
+[2018.02.01-10.57.32:363][188]LogSavePackage: Save=723.82ms
+[2018.02.01-10.57.32:363][188]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/M_Water_Lake_Auto24AB9A72B438B481B1C363DB88B90D868.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Lake_Auto2.uasset'
+[2018.02.01-10.57.32:364][188]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Lake_Auto2.uasset
+[2018.02.01-10.57.32:366][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_Spark] ([1] browsable assets)...
+[2018.02.01-10.57.32:399][188]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark]
+[2018.02.01-10.57.32:399][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_Spark]
+[2018.02.01-10.57.32:438][188]LogSavePackage: Save=27.96ms
+[2018.02.01-10.57.32:438][188]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/M_Spark_Auto2E713C54541AD15A5666B0BAA3A7FF048.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Spark_Auto2.uasset'
+[2018.02.01-10.57.32:439][188]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Spark_Auto2.uasset
+[2018.02.01-10.57.32:439][188]LogFileHelpers: Auto-saving content packages took 1.060
+[2018.02.01-11.05.00:993][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.02.01-11.05.01:161][498]LogSavePackage: Save=149.85ms
+[2018.02.01-11.05.01:162][498]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter11A742F94775D40EE8D6CABD501BBE75.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.02.01-11.05.01:175][498]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2018.02.01-11.05.02:431][573]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.01-11.05.02:454][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.05.03:341][573]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.01-11.05.03:372][573]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2018.02.01-11.05.04:172][573]LogPlayLevel: PlayLevel: Blueprint regeneration took 831 ms (1 blueprints)
+[2018.02.01-11.05.04:172][573]PIE: New page: PIE session: ThirdPersonExampleMap (01-Feb-2018 10:05:04 pm)
+[2018.02.01-11.05.04:173][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.01-11.05.04:207][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034211s)
+[2018.02.01-11.05.04:209][573]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-11.05.04:210][573]LogPlayLevel: PIE: World Init took: (0.002902s)
+[2018.02.01-11.05.04:211][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038464s)
+[2018.02.01-11.05.04:260][573]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-11.05.04:281][573]LogInit: FAudioDevice initialized.
+[2018.02.01-11.05.04:380][573]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-11.05.04:385][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.01-16.35.04
+[2018.02.01-11.05.04:386][573]LogWorld: Bringing up level for play took: 0.004361
+[2018.02.01-11.05.04:390][573]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.029
+[2018.02.01-11.05.04:390][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.05.04:684][573]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.02.01-11.05.28:135][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.05.28:211][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.07.14:449][769]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.01-11.07.14:478][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.07.14:479][769]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.01-11.07.14:496][769]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2018.02.01-11.07.15:402][769]LogPlayLevel: PlayLevel: Blueprint regeneration took 923 ms (1 blueprints)
+[2018.02.01-11.07.15:402][769]PIE: New page: PIE session: ThirdPersonExampleMap (01-Feb-2018 10:07:15 pm)
+[2018.02.01-11.07.15:402][769]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.01-11.07.15:436][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033487s)
+[2018.02.01-11.07.15:437][769]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-11.07.15:438][769]LogPlayLevel: PIE: World Init took: (0.002208s)
+[2018.02.01-11.07.15:439][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036474s)
+[2018.02.01-11.07.15:487][769]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-11.07.15:507][769]LogInit: FAudioDevice initialized.
+[2018.02.01-11.07.15:555][769]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-11.07.15:560][769]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.01-16.37.15
+[2018.02.01-11.07.15:561][769]LogWorld: Bringing up level for play took: 0.004944
+[2018.02.01-11.07.15:569][769]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.208
+[2018.02.01-11.07.15:569][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.07.39:912][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.07.39:992][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.08.49:394][828]LogSavePackage: Save=134.30ms
+[2018.02.01-11.08.49:394][828]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto342B1946D49285CDEC052369E121062BF.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.02.01-11.08.49:396][828]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.02.01-11.08.49:400][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.216
+[2018.02.01-11.08.49:400][828]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2018.02.01-11.08.49:404][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.02.01-11.08.49:440][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.02.01-11.08.49:440][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.02.01-11.08.49:592][828]LogSavePackage: Save=148.70ms
+[2018.02.01-11.08.49:593][828]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter_Auto308B02A3E4B86B3CD0E5333B31E7C29F0.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto3.uasset'
+[2018.02.01-11.08.49:594][828]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto3.uasset
+[2018.02.01-11.08.49:594][828]LogFileHelpers: Auto-saving content packages took 0.191
+[2018.02.01-11.11.28:032][967]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.01-11.11.28:058][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.11.28:058][967]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.01-11.11.28:075][967]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2018.02.01-11.11.29:488][967]LogPlayLevel: PlayLevel: Blueprint regeneration took 1429 ms (1 blueprints)
+[2018.02.01-11.11.29:488][967]PIE: New page: PIE session: ThirdPersonExampleMap (01-Feb-2018 10:11:29 pm)
+[2018.02.01-11.11.29:488][967]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.01-11.11.29:527][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038562s)
+[2018.02.01-11.11.29:530][967]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-11.11.29:530][967]LogPlayLevel: PIE: World Init took: (0.003622s)
+[2018.02.01-11.11.29:531][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043018s)
+[2018.02.01-11.11.29:586][967]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-11.11.29:609][967]LogInit: FAudioDevice initialized.
+[2018.02.01-11.11.29:666][967]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-11.11.29:671][967]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.01-16.41.29
+[2018.02.01-11.11.29:672][967]LogWorld: Bringing up level for play took: 0.005417
+[2018.02.01-11.11.29:678][967]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.317
+[2018.02.01-11.11.29:679][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.11.37:139][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.11.37:215][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.12.10:443][198]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.01-11.12.10:469][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.12.10:469][198]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.01-11.12.10:487][198]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2018.02.01-11.12.11:786][198]LogPlayLevel: PlayLevel: Blueprint regeneration took 1316 ms (1 blueprints)
+[2018.02.01-11.12.11:786][198]PIE: New page: PIE session: ThirdPersonExampleMap (01-Feb-2018 10:12:11 pm)
+[2018.02.01-11.12.11:786][198]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.01-11.12.11:819][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032375s)
+[2018.02.01-11.12.11:820][198]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.01-11.12.11:820][198]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2018.02.01-11.12.11:821][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035089s)
+[2018.02.01-11.12.11:870][198]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-11.12.11:889][198]LogInit: FAudioDevice initialized.
+[2018.02.01-11.12.11:942][198]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.01-11.12.11:951][198]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.01-16.42.11
+[2018.02.01-11.12.11:952][198]LogWorld: Bringing up level for play took: 0.005994
+[2018.02.01-11.12.11:961][198]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.6
+[2018.02.01-11.12.11:961][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.13.13:758][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.13.13:824][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.01-11.20.02:399][916]LogSavePackage: Save=127.91ms
+[2018.02.01-11.20.02:399][916]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto4441CDE6E41FA94FFED841A997D2C52BF.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2018.02.01-11.20.02:400][916]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2018.02.01-11.20.02:407][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.204
+[2018.02.01-11.20.02:407][916]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2018.02.01-11.20.02:410][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.02.01-11.20.02:448][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.02.01-11.20.02:448][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.02.01-11.20.02:608][916]LogSavePackage: Save=148.23ms
+[2018.02.01-11.20.02:609][916]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter_Auto40F712ECA4F8B0462ECDCB684B594906E.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto4.uasset'
+[2018.02.01-11.20.02:611][916]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto4.uasset
+[2018.02.01-11.20.02:611][916]LogFileHelpers: Auto-saving content packages took 0.202
+[2018.02.01-12.13.15:324][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.02.01-12.14.47:665][535]LogSavePackage: Save=130.68ms
+[2018.02.01-12.14.47:666][535]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto5E6977A2540497D5211DA20B33B660C78.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2018.02.01-12.14.50:032][535]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2018.02.01-12.14.50:045][535]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.583
+[2018.02.01-12.14.50:045][535]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.583
+[2018.02.01-12.14.50:061][535]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.02.01-12.14.50:109][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.02.01-12.14.50:109][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.02.01-12.14.50:279][535]LogSavePackage: Save=155.97ms
+[2018.02.01-12.14.50:280][535]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter_Auto5880FC5434A45453BCD3863828E508C3D.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset'
+[2018.02.01-12.14.50:710][535]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset
+[2018.02.01-12.14.50:710][535]LogFileHelpers: Auto-saving content packages took 0.652
+[2018.02.01-12.15.16:988][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.02.01-12.15.17:144][ 61]LogSavePackage: Save=150.99ms
+[2018.02.01-12.15.17:144][ 61]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter64E3F2BE43C79E9BAD6EFD93462C3954.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.02.01-12.15.17:157][ 61]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2018.02.01-12.15.18:580][146]BlueprintLog: New page: Compile RunCharacter
+[2018.02.01-12.24.51:507][330]LogSavePackage: Save=131.17ms
+[2018.02.01-12.24.51:509][330]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonExampleMap_Auto6D16F2AF44866CEA6938DF0BF12E150C8.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2018.02.01-12.24.51:510][330]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2018.02.01-12.24.51:514][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.210
+[2018.02.01-12.24.51:514][330]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.210
+[2018.02.01-12.36.51:531][417]LogEditorTransaction: Undo Edit Hand
+[2018.02.01-12.36.51:575][417]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.51:576][417]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:582][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.Arrow) Component already registered.
+[2018.02.01-12.36.51:583][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:586][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:587][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.36.51:588][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:590][417]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:763][424]LogEditorTransaction: Undo Rename Component Variable
+[2018.02.01-12.36.51:802][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_20.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:804][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_12.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:805][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:807][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.36.51:808][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:809][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:811][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_12.Arrow) Component already registered.
+[2018.02.01-12.36.51:812][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_12.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:814][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:814][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_16.Arrow) Component already registered.
+[2018.02.01-12.36.51:815][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_16.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:816][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_16.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:818][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_20.Arrow) Component already registered.
+[2018.02.01-12.36.51:819][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_20.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:820][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.Arrow) Component already registered.
+[2018.02.01-12.36.51:821][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:822][424]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.36.51:824][424]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.36.51:825][424]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0) Component already registered.
+[2018.02.01-12.36.51:827][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.Arrow) Component already registered.
+[2018.02.01-12.36.51:828][424]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2018.02.01-12.36.52:022][425]LogEditorTransaction: Undo Rename Component Variable
+[2018.02.01-12.36.52:116][430]LogEditorTransaction: Undo Add Component
+[2018.02.01-12.36.52:278][432]LogEditorTransaction: Undo Add Component
+[2018.02.01-12.36.52:448][433]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.01-12.36.52:593][441]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.52:765][447]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.52:952][456]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.52:970][456]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.53:136][464]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.53:154][464]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.53:319][472]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.53:336][472]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.53:552][483]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.53:574][483]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.53:865][498]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.53:885][498]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.54:175][513]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.54:193][513]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.54:476][528]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.54:496][528]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.56:865][667]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.56:881][667]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.57:618][709]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.57:631][709]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.57:902][723]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.57:916][723]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.58:102][732]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.58:119][732]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.58:286][740]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.58:301][740]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.58:470][748]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.58:486][748]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.58:635][755]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.58:652][755]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.36.58:803][762]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.58:981][770]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:151][777]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:315][784]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:484][791]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:647][798]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:813][805]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.36.59:979][812]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.00:135][818]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.00:294][826]LogEditorTransaction: Undo Reset Rotation
+[2018.02.01-12.37.00:460][832]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.00:642][840]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.00:653][840]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.00:821][848]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.00:831][848]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:001][856]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.01:176][865]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.01:188][865]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:355][873]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.01:368][873]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:518][880]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.01:527][880]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:693][888]LogEditorTransaction: Undo Remove Components
+[2018.02.01-12.37.01:850][890]LogEditorTransaction: Undo Attach Component
+[2018.02.01-12.37.01:858][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:875][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.01:877][890]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.01:879][890]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.01:880][890]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharacterMesh0) Component already registered.
+[2018.02.01-12.37.01:882][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.Arrow) Component already registered.
+[2018.02.01-12.37.01:882][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2018.02.01-12.37.01:883][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.02.01-12.37.01:884][890]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.02.01-12.37.02:009][894]LogEditorTransaction: Undo Add Component
+[2018.02.01-12.37.02:160][896]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.02:175][896]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.02:178][896]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.02:183][896]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.02:185][896]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.02:186][896]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.02:292][898]LogEditorTransaction: Undo Replace component used material
+[2018.02.01-12.37.02:448][903]LogEditorTransaction: Undo Replace component used material
+[2018.02.01-12.37.02:618][911]LogEditorTransaction: Undo Replace component used material
+[2018.02.01-12.37.02:803][920]LogEditorTransaction: Undo Replace component used material
+[2018.02.01-12.37.03:019][931]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:034][931]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:037][931]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:041][931]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:042][931]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:043][931]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.03:224][939]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:239][939]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:243][939]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:246][939]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:247][939]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:248][939]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.03:410][947]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:424][947]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:427][947]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:431][947]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:434][947]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:435][947]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.03:595][955]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:609][955]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:611][955]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:618][955]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:619][955]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:620][955]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.03:780][963]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:795][963]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:799][963]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:804][963]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:806][963]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:807][963]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.03:969][971]LogEditorTransaction: Undo Edit Anim Class
+[2018.02.01-12.37.03:981][971]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:986][971]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.03:991][971]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.03:992][971]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.03:993][971]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.04:137][978]LogEditorTransaction: Undo Edit Animation Mode
+[2018.02.01-12.37.04:152][978]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.04:155][978]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.04:159][978]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.04:160][978]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.04:161][978]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.04:322][985]LogEditorTransaction: Undo Edit Animation Mode
+[2018.02.01-12.37.04:336][985]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.04:340][985]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2018.02.01-12.37.04:344][985]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.Arrow) Component already registered.
+[2018.02.01-12.37.04:345][985]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CharMoveComp) Component already registered.
+[2018.02.01-12.37.04:345][985]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.RunCharacter_C_1.Arrow) Component already registered.
+[2018.02.01-12.37.04:508][993]LogEditorTransaction: Undo Comment Bubble Visibility
+[2018.02.01-12.37.04:692][999]LogEditorTransaction: Undo Comment Bubble Visibility
+[2018.02.01-12.37.04:917][  9]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:076][ 16]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:253][ 24]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:428][ 32]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:603][ 40]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:796][ 49]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.05:973][ 57]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.01-12.37.13:256][489]BlueprintLog: New page: Compile RunCharacter
+[2018.02.01-12.37.13:437][489]LogWorld: --- Actors Currently in /Engine/Transient.World_2:PersistentLevel ---
+[2018.02.01-12.37.13:437][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.WorldSettings
+[2018.02.01-12.37.13:437][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.Brush_2
+[2018.02.01-12.37.13:438][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.DefaultPhysicsVolume_2
+[2018.02.01-12.37.13:438][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.ParticleEventManager_2
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:438][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   NONE
+[2018.02.01-12.37.13:439][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.RunCharacter_C_42
+[2018.02.01-12.37.13:439][489]LogWorld:   /Engine/Transient.World_2:PersistentLevel.RunCharacter_C_0
+[2018.02.01-12.37.14:555][489]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.116 s
+[2018.02.01-12.37.14:555][489]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.01-12.37.14:555][489]LogOutputDevice: Error: 
+[2018.02.01-12.37.14:555][489]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1487]
+[2018.02.01-12.37.14:555][489]LogOutputDevice: Error: Could not remove actor /Engine/Transient.World_2:PersistentLevel.REINST_RunCharacter_C_5 from world (check level is /Engine/Transient.World_2:PersistentLevel)
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: Stack: 
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C0073E36
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000BFDFC2D2
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000BFE14746
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B6402AE6
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B5B51608
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B5B54D23
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000B40C44A7
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000B40C58E7
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000B4088CFF
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000BEE79D7F
+[2018.02.01-12.37.14:556][489]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000BEE1852E
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000B40907FE
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000BEE17CD2
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000BEE69451
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000BEE6E1B6
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92753FF
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9379652
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92D67B2
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92D7B69
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D93566F5
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D940B967
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D94374D4
+[2018.02.01-12.37.14:557][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92542BC
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9227145
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92C1452
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D92A9C92
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D929B68F
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C004B759
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C0033EE1
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C004D5BB
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C002F042
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: USER32.dll!0x000000001398B85D
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: USER32.dll!0x000000001398B1EF
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C004DCC6
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor.exe!0x000000000A9D4BE2
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor.exe!0x000000000A9E3970
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor.exe!0x000000000A9E39EA
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor.exe!0x000000000A9F02D9
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: UE4Editor.exe!0x000000000A9F1C47
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: KERNEL32.DLL!0x0000000012DA1FE4
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: ntdll.dll!0x0000000013BAEFB1
+[2018.02.01-12.37.14:558][489]LogOutputDevice: Error: 
+[2018.02.01-12.37.14:568][489]LogStats:                SubmitErrorReport -  0.000 s

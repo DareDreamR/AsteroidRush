@@ -1,0 +1,919 @@
+﻿Log file open, 02/21/18 13:34:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AsteroidRush
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-575111622) SRandInit(-575111622).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.109472
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UNREAL Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.21-08.04.29:176][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.21-08.04.29:176][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.21-08.04.29:236][  0]LogInit: Computer: SAMARTH-PC
+[2018.02.21-08.04.29:236][  0]LogInit: User: SAMARTH
+[2018.02.21-08.04.29:237][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.21-08.04.29:237][  0]LogInit: High frequency timer resolution =2.343753 MHz
+[2018.02.21-08.04.29:237][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.21-08.04.29:237][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.21-08.04.29:237][  0]LogMemory: Process Physical Memory: 279.10 MB used, 279.10 MB peak
+[2018.02.21-08.04.29:238][  0]LogMemory: Process Virtual Memory: 275.93 MB used, 275.93 MB peak
+[2018.02.21-08.04.29:238][  0]LogMemory: Physical Memory: 4286.36 MB used,  3834.00 MB free, 8120.36 MB total
+[2018.02.21-08.04.29:238][  0]LogMemory: Virtual Memory: 705.43 MB used,  3834.00 MB free, 134217728.00 MB total
+[2018.02.21-08.04.29:472][  0]LogInit: Using OS detected language (en-US).
+[2018.02.21-08.04.29:472][  0]LogInit: Using OS detected locale (en-IN).
+[2018.02.21-08.04.29:477][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.21-08.04.30:906][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.21-08.04.31:044][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.02.21-08.04.31:044][  0]LogD3D11RHI:       2020/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.21-08.04.31:060][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.02.21-08.04.31:060][  0]LogD3D11RHI:       128/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.21-08.04.31:066][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.21-08.04.31:066][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.21-08.04.31:066][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.21-08.04.31:084][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.21-08.04.31:084][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.21-08.04.31:084][  0]LogWindows: EnumDisplayDevices:
+[2018.02.21-08.04.31:084][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.02.21-08.04.31:085][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.21-08.04.31:085][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.21-08.04.31:086][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.21-08.04.31:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.02.21-08.04.31:086][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.21-08.04.31:086][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.21-08.04.31:086][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.21-08.04.31:158][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.21-08.04.31:182][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.21-08.04.31:183][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../Unreal Projects/AsteroidRush/Intermediate/Shaders/WorkingDirectory/5240/).
+[2018.02.21-08.04.31:184][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAMARTH/AppData/Local/Temp/UnrealShaderWorkingDir/6F891C6E485FA8753093EB95E88E1F06/'.
+[2018.02.21-08.04.31:184][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.21-08.04.33:315][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.21-08.04.33:356][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.21-08.04.33:398][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.21-08.04.33:446][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.21-08.04.33:540][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.21-08.04.33:602][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.21-08.04.33:709][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.21-08.04.33:865][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.21-08.04.33:943][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.21-08.04.34:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.21-08.04.34:091][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.21-08.04.34:187][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.21-08.04.34:303][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.21-08.04.34:406][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.21-08.04.34:554][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.21-08.04.34:850][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.21-08.04.34:850][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.21-08.04.34:916][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.21-08.04.35:044][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.21-08.04.35:077][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.21-08.04.35:122][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.21-08.04.35:164][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.21-08.04.35:243][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.21-08.04.35:334][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.21-08.04.35:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.21-08.04.35:882][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/AsteroidRush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/AsteroidRush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.21-08.04.36:047][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.21-08.04.36:072][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.21-08.04.36:084][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAMARTH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.21-08.04.36:115][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.21-08.04.36:116][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.21-08.04.36:118][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.21-08.04.36:118][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.21-08.04.36:956][  0]LogAssetRegistry: FAssetRegistry took 0.0409 seconds to start up
+[2018.02.21-08.04.37:152][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.21-08.04.37:604][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.21-08.04.37:675][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.21-08.04.37:675][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.21-08.04.37:675][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.21-08.04.37:675][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.21-08.04.37:675][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.21-08.04.37:677][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.21-08.04.39:008][  0]LogNetVersion: AsteroidRush , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3768261938)
+[2018.02.21-08.04.40:221][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.942489 seconds
+[2018.02.21-08.04.40:239][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.21-08.04.40:240][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.02.21-08.04.40:240][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.21-08.04.40:380][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.21-08.04.43:253][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.21-08.04.43:285][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.21-08.04.44:145][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.21-08.04.44:783][  0]SourceControl: Source control is disabled
+[2018.02.21-08.04.44:784][  0]SourceControl: Source control is disabled
+[2018.02.21-08.04.44:862][  0]SourceControl: Source control is disabled
+[2018.02.21-08.04.44:933][  0]SourceControl: Source control is disabled
+[2018.02.21-08.04.45:812][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.21-08.04.46:035][  0]LogOcInput: OculusInput pre-init called
+[2018.02.21-08.04.46:510][  0]LogEngine: Initializing Engine...
+[2018.02.21-08.04.46:514][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.21-08.04.46:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.21-08.04.46:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.21-08.04.46:980][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.21-08.04.46:987][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.04.47:287][  0]LogInit: FAudioDevice initialized.
+[2018.02.21-08.04.47:987][  0]LogDerivedDataCache: Saved boot cache 0.70s 93MB C:/Users/SAMARTH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.21-08.04.48:042][  0]LogInit: Texture streaming: Enabled
+[2018.02.21-08.04.48:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.21-08.04.48:771][  0]LogInit: Transaction tracking system initialized
+[2018.02.21-08.04.49:611][  0]BlueprintLog: New page: Editor Load
+[2018.02.21-08.04.50:843][  0]LocalizationService: Localization service is disabled
+[2018.02.21-08.04.54:258][  0]LogConsoleResponse: Display: 
+[2018.02.21-08.04.54:720][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.21-08.04.54:721][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.21-08.04.54:721][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.21-08.04.54:744][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/' took 0.04s
+[2018.02.21-08.04.57:213][  0]SourceControl: Source control is disabled
+[2018.02.21-08.04.57:213][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/AsteroidRush/Saved/Untitled_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.21-08.04.57:214][  0]LogEditorServer: Warning: Can't find file '../../../../Unreal Projects/AsteroidRush/Saved/Untitled_3.umap'
+[2018.02.21-08.04.57:214][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.21-08.04.57:289][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.205ms to complete.
+[2018.02.21-08.04.57:289][  0]LogFileHelpers: Loading map 'Untitled_3' took 0.076
+[2018.02.21-08.04.57:646][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.21-08.04.58:792][  0]LogCollectionManager: Loaded 0 collections in 0.001854 seconds
+[2018.02.21-08.04.59:075][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Saved/Collections/' took 0.01s
+[2018.02.21-08.04.59:075][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/Developers/SAMARTH/Collections/' took 0.01s
+[2018.02.21-08.04.59:075][  0]LogFileCache: Scanning file cache for directory 'D:/UNREAL Engine/Unreal Projects/AsteroidRush/Content/Collections/' took 0.01s
+[2018.02.21-08.04.59:075][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.21-08.04.59:134][  0]LogContentBrowser: Native class hierarchy populated in 0.0370 seconds. Added 2386 classes and 500 folders.
+[2018.02.21-08.04.59:481][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0509 seconds. Added 0 classes and 0 folders.
+[2018.02.21-08.05.02:115][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2018.02.21-08.05.02:339][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2018.02.21-08.05.03:605][  0]LogSlate: Took 0.001162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.21-08.05.03:756][  0]LogSlate: Took 0.000599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.21-08.05.03:828][  0]LogSlate: Took 0.022556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.21-08.05.06:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2018.02.21-08.05.06:416][  0]LogLoad: (Engine Initialization) Total time: 40.70 seconds
+[2018.02.21-08.05.06:416][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.21-08.05.06:417][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.21-08.05.06:469][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.21-08.05.07:004][  2]LogRenderer: Reallocating scene render targets to support 964x344 Format 10 NumSamples 1 (Frame:1).
+[2018.02.21-08.05.09:236][  3]LogSlate: Took 0.695049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.21-08.05.10:353][  5]LogAssetRegistry: Asset discovery search completed in 33.4216 seconds
+[2018.02.21-08.05.10:361][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.21-08.05.10:362][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000207 seconds (updated 0 objects)
+[2018.02.21-08.05.45:242][893]LogSlate: Took 0.000760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.21-08.05.48:633][893]LogSlate: Took 0.000524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.21-08.05.48:697][893]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.05.50:908][893]Cmd: MAP LOAD FILE="../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.21-08.05.50:910][893]LightingResults: New page: Lighting Build
+[2018.02.21-08.05.50:999][893]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0014 seconds. Added 5 classes and 0 folders.
+[2018.02.21-08.05.51:001][893]LoadErrors: New page: Loading map: AsteroidRush.umap
+[2018.02.21-08.05.51:001][893]MapCheck: New page: Map Check
+[2018.02.21-08.05.51:001][893]LightingResults: New page: Lighting Build
+[2018.02.21-08.05.51:127][893]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.02.21-08.05.51:290][893]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.21-08.05.51:443][893]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.894ms to complete.
+[2018.02.21-08.05.51:454][893]LogFileHelpers: Loading map 'AsteroidRush' took 0.548
+[2018.02.21-08.12.10:568][423]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../SolarSystem1.dds)
+[2018.02.21-08.12.12:577][423]LogTexture: Display: Building textures: SolarSystem1 (AutoDXT, 1024X1024)
+[2018.02.21-08.14.28:838][640]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0037 seconds. Added 1 classes and 2 folders.
+[2018.02.21-08.14.42:895][106]LogTexture: Display: Building textures: SolarSystem1 (RGBA16F, 1024X1024)
+[2018.02.21-08.17.04:092][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.052
+[2018.02.21-08.17.04:147][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/SolarSystem1] ([1] browsable assets)...
+[2018.02.21-08.17.04:168][645]OBJ SavePackage:     Rendered thumbnail for [TextureCube /Game/StarterContent/Textures/SolarSystem1.SolarSystem1]
+[2018.02.21-08.17.04:169][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/SolarSystem1]
+[2018.02.21-08.17.04:659][645]LogSavePackage: Save=466.54ms
+[2018.02.21-08.17.04:659][645]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SolarSystem1_Auto152E2129E4FC524C56407B8B7D9017A33.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto1.uasset'
+[2018.02.21-08.17.04:661][645]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto1.uasset
+[2018.02.21-08.17.04:661][645]LogFileHelpers: Auto-saving content packages took 0.567
+[2018.02.21-08.17.07:396][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/SolarSystem1" FILE="../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/SolarSystem1.uasset" SILENT=true
+[2018.02.21-08.17.08:685][717]LogSavePackage: Save=1272.40ms
+[2018.02.21-08.17.08:685][717]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SolarSystem159A3797046C1DEBD98FDB6B010D5C684.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/SolarSystem1.uasset'
+[2018.02.21-08.17.08:691][717]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Textures/SolarSystem1.uasset
+[2018.02.21-08.17.16:402][779]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2018.02.21-08.17.20:118][779]LogSlate: Took 0.034452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.21-08.17.21:094][780]LogSlate: Took 0.045827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.21-08.17.55:270][725]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2018.02.21-08.17.55:300][725]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.17.55:602][725]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.17.55:685][725]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.17.56:468][725]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.02.21-08.17.56:606][725]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2018.02.21-08.17.59:084][726]LogRenderer: Reallocating scene render targets to support 964x348 Format 10 NumSamples 1 (Frame:1).
+[2018.02.21-08.18.22:210][551]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.02.21-08.18.22:210][551]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.02.21-08.18.22:210][551]MaterialEditorStats: Texture samplers: 2/16
+[2018.02.21-08.18.47:471][221]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.18.47:541][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2018.02.21-08.18.54:018][747]LogMaterialEditor: Applying material SkyboxMat
+[2018.02.21-08.19.00:798][747]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.19.00:927][747]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.19.01:014][747]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.19.01:158][747]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SkyboxMat, compiling. 
+[2018.02.21-08.19.02:970][747]TextureStreamingBuild: Display: Compiling optional shaders took 1.868 seconds.
+[2018.02.21-08.19.05:311][920]LogMaterialEditor: Saving and Compiling material SkyboxMat
+[2018.02.21-08.19.08:079][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/SkyboxMat" FILE="../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/SkyboxMat.uasset" SILENT=true
+[2018.02.21-08.19.10:906][920]LogSavePackage: Save=1689.17ms
+[2018.02.21-08.19.10:906][920]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SkyboxMatB940C3244A053D497517ECB1DFA16662.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/SkyboxMat.uasset'
+[2018.02.21-08.19.10:913][920]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/StarterContent/Materials/SkyboxMat.uasset
+[2018.02.21-08.19.10:924][920]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.02.21-08.19.10:924][920]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.02.21-08.19.10:924][920]MaterialEditorStats: Texture samplers: 3/16
+[2018.02.21-08.19.18:403][403]LogTemp: Repeating last play command: Simulate
+[2018.02.21-08.19.20:749][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.19.20:861][403]PIE: New page: SIE session: AsteroidRush (21-Feb-2018 7:19:20 pm)
+[2018.02.21-08.19.20:861][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.19.20:876][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014518s)
+[2018.02.21-08.19.20:879][403]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.19.20:880][403]LogPlayLevel: PIE: World Init took: (0.004103s)
+[2018.02.21-08.19.20:881][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.019649s)
+[2018.02.21-08.19.21:036][403]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.19.21:073][403]LogInit: FAudioDevice initialized.
+[2018.02.21-08.19.27:083][403]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.19.27:136][403]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 0) at 2018.02.21-13.49.27
+[2018.02.21-08.19.27:151][403]LogWorld: Bringing up level for play took: 0.017105
+[2018.02.21-08.19.27:357][403]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
+[2018.02.21-08.19.27:434][403]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 7.304
+[2018.02.21-08.19.53:238][596]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1288.18 Y=-976.64 Z=0.00 Location: X=41992.25 Y=-140.80 Z=101.14 Normal: X=-0.35 Y=-0.43 Z=-0.83 PenetrationDepth:1.340 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_41 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.21.40:843][783]BlueprintLog: New page: Compile SkyboxBP
+[2018.02.21-08.21.42:868][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/SkyboxBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset" SILENT=true
+[2018.02.21-08.21.42:958][894]LogSavePackage: Save=72.85ms
+[2018.02.21-08.21.42:958][894]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SkyboxBP37FEFE91422755215227DDAF22FD6DC0.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset'
+[2018.02.21-08.21.42:961][894]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset
+[2018.02.21-08.21.59:200][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.21.59:200][166]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:21:59 pm)
+[2018.02.21-08.21.59:201][166]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.21.59:204][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002967s)
+[2018.02.21-08.21.59:206][166]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.21.59:206][166]LogPlayLevel: PIE: World Init took: (0.002295s)
+[2018.02.21-08.21.59:206][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.005733s)
+[2018.02.21-08.21.59:242][166]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.21.59:260][166]LogInit: FAudioDevice initialized.
+[2018.02.21-08.21.59:294][166]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.21.59:297][166]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 0) at 2018.02.21-13.51.59
+[2018.02.21-08.21.59:297][166]LogWorld: Bringing up level for play took: 0.001739
+[2018.02.21-08.21.59:321][166]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.808
+[2018.02.21-08.24.08:884][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush" FILE="../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.21-08.24.08:977][639]LogSavePackage: Save=36.50ms
+[2018.02.21-08.24.08:977][639]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush8F8086C04F04AFAE7279D09B4DBCBA6F.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap'
+[2018.02.21-08.24.08:980][639]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap
+[2018.02.21-08.24.09:036][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush_BuiltData" FILE="../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset" SILENT=true
+[2018.02.21-08.24.09:074][639]LogSavePackage: Save=25.24ms
+[2018.02.21-08.24.09:075][639]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush_BuiltDataA12569764C72B0AB6C5AF5BD0F5ED55F.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset'
+[2018.02.21-08.24.09:076][639]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset
+[2018.02.21-08.24.10:466][707]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.24.10:496][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.24.10:496][707]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:24:10 pm)
+[2018.02.21-08.24.10:496][707]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.24.10:498][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002143s)
+[2018.02.21-08.24.10:500][707]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.24.10:500][707]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2018.02.21-08.24.10:501][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004265s)
+[2018.02.21-08.24.11:610][707]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.24.11:646][707]LogInit: FAudioDevice initialized.
+[2018.02.21-08.24.11:702][707]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.24.11:706][707]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 0) at 2018.02.21-13.54.11
+[2018.02.21-08.24.11:707][707]LogWorld: Bringing up level for play took: 0.003372
+[2018.02.21-08.24.11:756][707]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 1.626
+[2018.02.21-08.24.13:839][708]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.02.21-08.24.15:003][774]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=196.26 Y=-69.97 Z=0.00 Location: X=924.65 Y=-72.34 Z=101.07 Normal: X=-0.68 Y=-0.19 Z=-0.70 PenetrationDepth:1.838 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_0 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.24.16:398][863]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=294.22 Y=-120.68 Z=0.00 Location: X=940.52 Y=-102.52 Z=101.06 Normal: X=-0.63 Y=-0.52 Z=-0.58 PenetrationDepth:1.345 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_0 Component:rock BoneName:None (38 other events since notify)
+[2018.02.21-08.24.46:422][218]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=4822.18 Y=-371.12 Z=0.00 Location: X=121899.34 Y=-102.43 Z=101.53 Normal: X=-0.74 Y=0.04 Z=-0.67 PenetrationDepth:7.559 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_136 Component:rock BoneName:None (4 other events since notify)
+[2018.02.21-08.25.18:773][876]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.02.21-08.25.25:415][307]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.25.25:443][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.25.25:443][307]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:25:25 pm)
+[2018.02.21-08.25.25:443][307]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.25.25:446][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002411s)
+[2018.02.21-08.25.25:447][307]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.25.25:448][307]LogPlayLevel: PIE: World Init took: (0.001741s)
+[2018.02.21-08.25.25:448][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004501s)
+[2018.02.21-08.25.25:489][307]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.25.25:505][307]LogInit: FAudioDevice initialized.
+[2018.02.21-08.25.25:542][307]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.25.25:544][307]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 0) at 2018.02.21-13.55.25
+[2018.02.21-08.25.25:545][307]LogWorld: Bringing up level for play took: 0.001809
+[2018.02.21-08.25.25:572][307]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.558
+[2018.02.21-08.27.03:530][673]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.27.03:558][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.27.03:558][673]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:27:03 pm)
+[2018.02.21-08.27.03:558][673]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.27.03:561][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003106s)
+[2018.02.21-08.27.03:563][673]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.27.03:564][673]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2018.02.21-08.27.03:564][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.005652s)
+[2018.02.21-08.27.03:601][673]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.27.03:617][673]LogInit: FAudioDevice initialized.
+[2018.02.21-08.27.03:653][673]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.27.03:655][673]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-13.57.03
+[2018.02.21-08.27.03:655][673]LogWorld: Bringing up level for play took: 0.001636
+[2018.02.21-08.27.03:679][673]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.45
+[2018.02.21-08.29.08:194][914]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.29.08:221][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.29.08:221][914]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:29:08 pm)
+[2018.02.21-08.29.08:222][914]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.29.08:224][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002603s)
+[2018.02.21-08.29.08:226][914]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.29.08:226][914]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2018.02.21-08.29.08:226][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004643s)
+[2018.02.21-08.29.08:265][914]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.29.08:281][914]LogInit: FAudioDevice initialized.
+[2018.02.21-08.29.08:320][914]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.29.08:322][914]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-13.59.08
+[2018.02.21-08.29.08:322][914]LogWorld: Bringing up level for play took: 0.001506
+[2018.02.21-08.29.08:346][914]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.217
+[2018.02.21-08.29.14:642][271]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=532.49 Y=-338.18 Z=0.00 Location: X=20975.75 Y=-114.84 Z=101.10 Normal: X=-0.55 Y=-0.39 Z=-0.74 PenetrationDepth:1.154 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_20 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.29.32:177][153]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.29.32:202][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.29.32:202][153]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:29:32 pm)
+[2018.02.21-08.29.32:202][153]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.29.32:204][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001762s)
+[2018.02.21-08.29.32:205][153]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.29.32:206][153]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2018.02.21-08.29.32:206][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003936s)
+[2018.02.21-08.29.32:235][153]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.29.32:247][153]LogInit: FAudioDevice initialized.
+[2018.02.21-08.29.32:816][153]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.29.32:820][153]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-13.59.32
+[2018.02.21-08.29.32:821][153]LogWorld: Bringing up level for play took: 0.003558
+[2018.02.21-08.29.32:887][153]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.757
+[2018.02.21-08.29.32:931][153]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.02.21-08.29.32:997][154]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074033 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.02.21-08.29.53:130][660]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3947.72 Y=681.59 Z=0.00 Location: X=71944.77 Y=229.54 Z=101.11 Normal: X=-0.46 Y=0.39 Z=-0.79 PenetrationDepth:0.987 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_75 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.31.48:034][950]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.31.48:062][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.31.48:063][950]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:31:48 pm)
+[2018.02.21-08.31.48:063][950]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.31.48:065][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
+[2018.02.21-08.31.48:067][950]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.31.48:068][950]LogPlayLevel: PIE: World Init took: (0.002454s)
+[2018.02.21-08.31.48:068][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.005361s)
+[2018.02.21-08.31.48:104][950]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.31.48:120][950]LogInit: FAudioDevice initialized.
+[2018.02.21-08.31.48:159][950]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.31.48:161][950]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.01.48
+[2018.02.21-08.31.48:162][950]LogWorld: Bringing up level for play took: 0.001617
+[2018.02.21-08.31.48:186][950]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.056
+[2018.02.21-08.32.44:762][241]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.32.44:792][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.32.44:792][241]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:32:44 pm)
+[2018.02.21-08.32.44:792][241]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.32.44:795][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002164s)
+[2018.02.21-08.32.44:796][241]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.32.44:796][241]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2018.02.21-08.32.44:796][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003967s)
+[2018.02.21-08.32.44:831][241]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.32.44:847][241]LogInit: FAudioDevice initialized.
+[2018.02.21-08.32.44:885][241]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.32.44:886][241]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.02.44
+[2018.02.21-08.32.44:887][241]LogWorld: Bringing up level for play took: 0.001344
+[2018.02.21-08.32.44:910][241]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.78
+[2018.02.21-08.32.47:870][413]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=401.34 Y=-100.69 Z=0.00 Location: X=7987.48 Y=-328.63 Z=101.06 Normal: X=-0.06 Y=-0.35 Z=-0.93 PenetrationDepth:2.127 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_7 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.33.00:604][134]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.33.00:632][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.33.00:633][134]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:33:00 pm)
+[2018.02.21-08.33.00:633][134]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.33.00:636][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002992s)
+[2018.02.21-08.33.00:637][134]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.33.00:638][134]LogPlayLevel: PIE: World Init took: (0.001316s)
+[2018.02.21-08.33.00:638][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004847s)
+[2018.02.21-08.33.00:673][134]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.33.00:688][134]LogInit: FAudioDevice initialized.
+[2018.02.21-08.33.00:728][134]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.33.00:730][134]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.03.00
+[2018.02.21-08.33.00:730][134]LogWorld: Bringing up level for play took: 0.001470
+[2018.02.21-08.33.00:754][134]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.624
+[2018.02.21-08.33.25:704][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.33.25:729][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.33.25:730][426]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:33:25 pm)
+[2018.02.21-08.33.25:730][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.33.25:733][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003054s)
+[2018.02.21-08.33.25:735][426]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.33.25:735][426]LogPlayLevel: PIE: World Init took: (0.001674s)
+[2018.02.21-08.33.25:735][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.005243s)
+[2018.02.21-08.33.25:766][426]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.33.25:782][426]LogInit: FAudioDevice initialized.
+[2018.02.21-08.33.25:821][426]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.33.25:823][426]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.03.25
+[2018.02.21-08.33.25:823][426]LogWorld: Bringing up level for play took: 0.001472
+[2018.02.21-08.33.25:848][426]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.282
+[2018.02.21-08.33.30:645][699]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=943.10 Y=-428.00 Z=0.00 Location: X=17903.90 Y=148.98 Z=101.39 Normal: X=-0.68 Y=0.09 Z=-0.73 PenetrationDepth:5.075 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_17 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.33.40:680][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.33.40:708][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.33.40:708][267]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:33:40 pm)
+[2018.02.21-08.33.40:708][267]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.33.40:714][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005187s)
+[2018.02.21-08.33.40:715][267]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.33.40:716][267]LogPlayLevel: PIE: World Init took: (0.001778s)
+[2018.02.21-08.33.40:716][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.007402s)
+[2018.02.21-08.33.40:747][267]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.33.40:762][267]LogInit: FAudioDevice initialized.
+[2018.02.21-08.33.40:798][267]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.33.40:800][267]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.03.40
+[2018.02.21-08.33.40:800][267]LogWorld: Bringing up level for play took: 0.001616
+[2018.02.21-08.33.40:824][267]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.695
+[2018.02.21-08.34.01:055][389]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.34.01:082][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.34.01:083][389]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:34:01 pm)
+[2018.02.21-08.34.01:083][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.34.01:085][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2018.02.21-08.34.01:086][389]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.34.01:087][389]LogPlayLevel: PIE: World Init took: (0.001509s)
+[2018.02.21-08.34.01:087][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004166s)
+[2018.02.21-08.34.01:123][389]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.34.01:138][389]LogInit: FAudioDevice initialized.
+[2018.02.21-08.34.01:177][389]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.34.01:179][389]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.04.01
+[2018.02.21-08.34.01:180][389]LogWorld: Bringing up level for play took: 0.001689
+[2018.02.21-08.34.01:204][389]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 1.074
+[2018.02.21-08.34.28:016][863]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.34.28:043][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.34.28:043][863]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:34:28 pm)
+[2018.02.21-08.34.28:043][863]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.34.28:045][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002190s)
+[2018.02.21-08.34.28:047][863]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.34.28:047][863]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2018.02.21-08.34.28:047][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004241s)
+[2018.02.21-08.34.28:081][863]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.34.28:096][863]LogInit: FAudioDevice initialized.
+[2018.02.21-08.34.28:137][863]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.34.28:138][863]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.04.28
+[2018.02.21-08.34.28:139][863]LogWorld: Bringing up level for play took: 0.001510
+[2018.02.21-08.34.28:163][863]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.033
+[2018.02.21-08.34.37:010][355]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=4620.33 Y=-435.11 Z=0.00 Location: X=35903.92 Y=-117.17 Z=101.33 Normal: X=-0.69 Y=0.08 Z=-0.72 PenetrationDepth:4.235 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_35 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.34.49:024][998]EditorErrors: New page: Actor attachment
+[2018.02.21-08.35.20:839][806]LogTexture: Display: Building textures: SolarSystem1 (BGRA8, 1024X1024)
+[2018.02.21-08.36.56:026][806]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.36.56:085][806]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.37.07:944][307]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.02.21-08.37.07:944][307]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.02.21-08.37.07:944][307]MaterialEditorStats: Texture samplers: 3/16
+[2018.02.21-08.37.19:995][853]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.37.20:069][853]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.37.24:611][ 27]LogTexture: Display: Building textures: SolarSystem1 (BGRA8, 1024X1024)
+[2018.02.21-08.38.49:715][ 27]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.38.51:939][ 27]LogMaterial: Warning: Failed to compile Material /Game/StarterContent/Materials/SkyboxMat.SkyboxMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.21-08.38.51:939][ 27]LogMaterial: Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Normal for /Game/StarterContent/Textures/SolarSystem1.SolarSystem1
+[2018.02.21-08.38.51:949][ 27]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.38.51:950][ 27]LogMaterial: Warning: Failed to compile Material /Engine/Transient.SkyboxMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.21-08.38.51:951][ 27]LogMaterial: Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Normal for /Game/StarterContent/Textures/SolarSystem1.SolarSystem1
+[2018.02.21-08.38.52:074][ 27]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Linear Color, should be Normal for /Game/StarterContent/Textures/SolarSystem1.SolarSystem1
+[2018.02.21-08.39.02:246][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush" FILE="../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.21-08.39.03:535][627]LogSavePackage: Save=1272.64ms
+[2018.02.21-08.39.03:535][627]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush_Auto2FD5BA77A4269C1658B109DA1F1040A71.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto2.umap'
+[2018.02.21-08.39.03:536][627]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto2.umap
+[2018.02.21-08.39.03:540][627]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 1.333
+[2018.02.21-08.39.03:540][627]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.333
+[2018.02.21-08.39.03:543][627]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/SolarSystem1] ([1] browsable assets)...
+[2018.02.21-08.39.03:555][627]OBJ SavePackage:     Rendered thumbnail for [TextureCube /Game/StarterContent/Textures/SolarSystem1.SolarSystem1]
+[2018.02.21-08.39.03:555][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/SolarSystem1]
+[2018.02.21-08.39.04:643][627]LogTexture: Display: Building textures: SolarSystem1 (BC5, 1024X1024)
+[2018.02.21-08.40.24:777][627]LogSavePackage: Save=81192.02ms
+[2018.02.21-08.40.24:777][627]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SolarSystem1_Auto2AE5C881548520DB4BD3149AA218DF05E.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto2.uasset'
+[2018.02.21-08.40.24:778][627]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto2.uasset
+[2018.02.21-08.40.24:778][627]LogFileHelpers: Auto-saving content packages took 81.237
+[2018.02.21-08.40.47:726][949]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.40.48:251][949]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-08.40.59:726][597]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.02.21-08.40.59:726][597]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.02.21-08.40.59:726][597]MaterialEditorStats: Texture samplers: 3/16
+[2018.02.21-08.41.03:668][801]LogTexture: Display: Building textures: SolarSystem1 (RGBA16F, 1024X1024)
+[2018.02.21-08.43.33:623][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush" FILE="../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.21-08.43.33:696][972]LogSavePackage: Save=34.78ms
+[2018.02.21-08.43.33:696][972]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush3D5C72F84399CAFACF559B9B8692050C.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap'
+[2018.02.21-08.43.33:704][972]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush.umap
+[2018.02.21-08.43.33:756][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush_BuiltData" FILE="../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset" SILENT=true
+[2018.02.21-08.43.33:791][972]LogSavePackage: Save=20.91ms
+[2018.02.21-08.43.33:791][972]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush_BuiltDataF077038B407C2D60D3C67E9CF533CF1D.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset'
+[2018.02.21-08.43.33:792][972]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/AsteroidRush_BuiltData.uasset
+[2018.02.21-08.43.35:405][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.43.36:277][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.43.36:278][ 60]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:43:36 pm)
+[2018.02.21-08.43.36:278][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.43.36:284][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005783s)
+[2018.02.21-08.43.36:289][ 60]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.43.36:289][ 60]LogPlayLevel: PIE: World Init took: (0.005241s)
+[2018.02.21-08.43.36:290][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.012037s)
+[2018.02.21-08.43.36:363][ 60]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.43.36:397][ 60]LogInit: FAudioDevice initialized.
+[2018.02.21-08.43.36:445][ 60]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.43.36:449][ 60]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.13.36
+[2018.02.21-08.43.36:450][ 60]LogWorld: Bringing up level for play took: 0.003057
+[2018.02.21-08.43.36:506][ 60]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.376
+[2018.02.21-08.43.36:561][ 61]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.02.21-08.43.42:502][394]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1223.66 Y=45.22 Z=0.00 Location: X=19931.38 Y=-0.48 Z=101.16 Normal: X=-0.41 Y=0.71 Z=-0.57 PenetrationDepth:2.536 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_19 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-08.43.48:801][736]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-08.43.48:827][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-08.43.48:828][736]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 7:43:48 pm)
+[2018.02.21-08.43.48:828][736]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-08.43.48:832][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003573s)
+[2018.02.21-08.43.48:834][736]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-08.43.48:834][736]LogPlayLevel: PIE: World Init took: (0.002646s)
+[2018.02.21-08.43.48:835][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.006694s)
+[2018.02.21-08.43.48:874][736]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-08.43.48:891][736]LogInit: FAudioDevice initialized.
+[2018.02.21-08.43.48:942][736]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-08.43.48:944][736]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-14.13.48
+[2018.02.21-08.43.48:945][736]LogWorld: Bringing up level for play took: 0.002167
+[2018.02.21-08.43.48:985][736]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.856
+[2018.02.21-08.54.02:647][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.034
+[2018.02.21-08.54.02:649][377]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/SolarSystem1] ([1] browsable assets)...
+[2018.02.21-08.54.02:657][377]OBJ SavePackage:     Rendered thumbnail for [TextureCube /Game/StarterContent/Textures/SolarSystem1.SolarSystem1]
+[2018.02.21-08.54.02:657][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/SolarSystem1]
+[2018.02.21-08.54.03:727][377]LogSavePackage: Save=1051.41ms
+[2018.02.21-08.54.03:727][377]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SolarSystem1_Auto3C029367146379A4B9091D4A8A688874E.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto3.uasset'
+[2018.02.21-08.54.03:728][377]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/StarterContent/Textures/SolarSystem1_Auto3.uasset
+[2018.02.21-08.54.03:728][377]LogFileHelpers: Auto-saving content packages took 1.080
+[2018.02.21-10.39.12:607][501]BlueprintLog: New page: Compile FloorBP
+[2018.02.21-10.39.16:622][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FloorBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/FloorBP.uasset" SILENT=true
+[2018.02.21-10.39.16:726][916]LogSavePackage: Save=89.40ms
+[2018.02.21-10.39.16:726][916]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/FloorBPD7F7ED9D4A1EF56D2F52EFAEE11A69B3.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/FloorBP.uasset'
+[2018.02.21-10.39.16:729][916]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/FloorBP.uasset
+[2018.02.21-10.40.18:237][172]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-10.40.18:265][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-10.40.18:265][172]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 9:40:18 pm)
+[2018.02.21-10.40.18:266][172]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-10.40.18:268][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2018.02.21-10.40.18:270][172]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-10.40.18:270][172]LogPlayLevel: PIE: World Init took: (0.001979s)
+[2018.02.21-10.40.18:271][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.005067s)
+[2018.02.21-10.40.18:298][172]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-10.40.18:312][172]LogInit: FAudioDevice initialized.
+[2018.02.21-10.40.18:358][172]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-10.40.18:359][172]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 0) at 2018.02.21-16.10.18
+[2018.02.21-10.40.18:360][172]LogWorld: Bringing up level for play took: 0.001351
+[2018.02.21-10.40.18:382][172]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 1.071
+[2018.02.21-10.40.28:587][552]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=241.12 Y=-13.58 Z=0.00 Location: X=39966.66 Y=-39.43 Z=101.10 Normal: X=-0.61 Y=0.43 Z=-0.67 PenetrationDepth:4.157 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_39 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-10.41.08:859][ 37]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=914.46 Y=64.47 Z=0.00 Location: X=184970.59 Y=-32.72 Z=101.02 Normal: X=-0.66 Y=0.36 Z=-0.65 PenetrationDepth:1.057 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_212 Component:rock BoneName:None (21 other events since notify)
+[2018.02.21-10.43.23:886][  9]BlueprintLog: New page: Compile SkyboxBP
+[2018.02.21-10.43.26:212][118]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-10.43.26:239][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-10.43.26:239][118]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 9:43:26 pm)
+[2018.02.21-10.43.26:239][118]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-10.43.26:241][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001757s)
+[2018.02.21-10.43.26:242][118]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-10.43.26:242][118]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2018.02.21-10.43.26:242][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003370s)
+[2018.02.21-10.43.26:265][118]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-10.43.26:278][118]LogInit: FAudioDevice initialized.
+[2018.02.21-10.43.26:325][118]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-10.43.26:328][118]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.13.26
+[2018.02.21-10.43.26:329][118]LogWorld: Bringing up level for play took: 0.002729
+[2018.02.21-10.43.26:353][118]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 1.043
+[2018.02.21-10.44.18:465][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/SkyboxBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset" SILENT=true
+[2018.02.21-10.44.18:503][793]LogSavePackage: Save=25.88ms
+[2018.02.21-10.44.18:504][793]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/SkyboxBP9EF41E89455F7976967AAD9BF2A8C379.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset'
+[2018.02.21-10.44.18:506][793]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/SkyboxBP.uasset
+[2018.02.21-10.47.40:367][729]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-10.47.40:393][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-10.47.40:393][729]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 9:47:40 pm)
+[2018.02.21-10.47.40:393][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-10.47.40:396][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002267s)
+[2018.02.21-10.47.40:397][729]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-10.47.40:398][729]LogPlayLevel: PIE: World Init took: (0.001830s)
+[2018.02.21-10.47.40:398][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004495s)
+[2018.02.21-10.47.40:427][729]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-10.47.40:439][729]LogInit: FAudioDevice initialized.
+[2018.02.21-10.47.40:481][729]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-10.47.40:482][729]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.17.40
+[2018.02.21-10.47.40:483][729]LogWorld: Bringing up level for play took: 0.001467
+[2018.02.21-10.47.40:505][729]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.806
+[2018.02.21-10.51.24:794][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AsteroidRush" FILE="../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.21-10.51.24:828][881]LogSavePackage: Save=22.76ms
+[2018.02.21-10.51.24:828][881]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/AsteroidRush_Auto41D21C7C74E8893F563505A9B28F0C5E2.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto4.umap'
+[2018.02.21-10.51.24:829][881]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/AsteroidRush_Auto4.umap
+[2018.02.21-10.51.24:831][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.071
+[2018.02.21-10.51.24:831][881]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.071
+[2018.02.21-10.51.24:833][881]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/FloorBP] ([1] browsable assets)...
+[2018.02.21-10.51.24:833][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/FloorBP]
+[2018.02.21-10.51.24:930][881]LogSavePackage: Save=87.46ms
+[2018.02.21-10.51.24:930][881]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/FloorBP_Auto4C3309C9B4538EC00B075B2BAA5000A76.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/FloorBP_Auto4.uasset'
+[2018.02.21-10.51.25:054][881]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/FloorBP_Auto4.uasset
+[2018.02.21-10.51.25:057][881]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Block_BP] ([1] browsable assets)...
+[2018.02.21-10.51.25:153][881]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Block_BP.Block_BP]
+[2018.02.21-10.51.25:153][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Block_BP]
+[2018.02.21-10.51.25:210][881]LogSavePackage: Save=36.30ms
+[2018.02.21-10.51.25:210][881]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/Block_BP_Auto494EB012D4E310196C44E07BBD3ED85F1.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Block_BP_Auto4.uasset'
+[2018.02.21-10.51.25:211][881]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Block_BP_Auto4.uasset
+[2018.02.21-10.51.25:211][881]LogFileHelpers: Auto-saving content packages took 0.379
+[2018.02.21-10.52.15:403][756]BlueprintLog: New page: Compile RunCharacter
+[2018.02.21-10.57.44:725][455]BlueprintLog: New page: Compile RunCharacter
+[2018.02.21-10.57.46:388][514]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-10.57.46:419][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-10.57.46:419][514]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 9:57:46 pm)
+[2018.02.21-10.57.46:419][514]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-10.57.46:421][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002245s)
+[2018.02.21-10.57.46:422][514]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-10.57.46:423][514]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2018.02.21-10.57.46:423][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004185s)
+[2018.02.21-10.57.46:450][514]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-10.57.46:463][514]LogInit: FAudioDevice initialized.
+[2018.02.21-10.57.46:515][514]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-10.57.46:518][514]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.27.46
+[2018.02.21-10.57.46:518][514]LogWorld: Bringing up level for play took: 0.002891
+[2018.02.21-10.57.46:545][514]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.766
+[2018.02.21-10.58.14:537][556]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1076.79 Y=378.00 Z=0.00 Location: X=126935.69 Y=10.55 Z=101.15 Normal: X=-0.37 Y=0.77 Z=-0.52 PenetrationDepth:2.521 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_144 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-10.58.19:309][726]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1338.98 Y=45.82 Z=0.00 Location: X=142976.03 Y=-10.81 Z=101.07 Normal: X=-0.51 Y=0.52 Z=-0.68 PenetrationDepth:0.016 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_162 Component:rock BoneName:None (7 other events since notify)
+[2018.02.21-10.58.20:317][762]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=220.06 Y=-6.30 Z=0.00 Location: X=142941.48 Y=-4.06 Z=101.01 Normal: X=-0.97 Y=0.03 Z=-0.23 PenetrationDepth:5.698 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_162 Component:rock BoneName:None (32 other events since notify)
+[2018.02.21-10.58.29:564][ 79]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=2883.16 Y=122.33 Z=0.00 Location: X=175887.11 Y=-308.08 Z=101.50 Normal: X=-0.62 Y=0.13 Z=-0.77 PenetrationDepth:6.118 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_202 Component:rock BoneName:None (18 other events since notify)
+[2018.02.21-10.59.25:978][735]BlueprintLog: New page: Compile RunCharacter
+[2018.02.21-10.59.28:161][825]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-10.59.28:188][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-10.59.28:188][825]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 9:59:28 pm)
+[2018.02.21-10.59.28:188][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-10.59.28:190][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002194s)
+[2018.02.21-10.59.28:191][825]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-10.59.28:192][825]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2018.02.21-10.59.28:192][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003852s)
+[2018.02.21-10.59.28:221][825]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-10.59.28:233][825]LogInit: FAudioDevice initialized.
+[2018.02.21-10.59.28:276][825]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-10.59.28:278][825]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.29.28
+[2018.02.21-10.59.28:278][825]LogWorld: Bringing up level for play took: 0.001648
+[2018.02.21-10.59.28:300][825]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.989
+[2018.02.21-10.59.35:144][ 92]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1764.37 Y=276.28 Z=0.00 Location: X=27903.34 Y=-55.02 Z=101.39 Normal: X=-0.56 Y=0.23 Z=-0.79 PenetrationDepth:12.552 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_27 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-10.59.39:057][245]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=614.25 Y=-414.95 Z=0.00 Location: X=37964.23 Y=-95.47 Z=101.12 Normal: X=-0.52 Y=-0.39 Z=-0.76 PenetrationDepth:1.211 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_37 Component:rock BoneName:None (8 other events since notify)
+[2018.02.21-11.00.54:613][691]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3691.01 Y=-132.40 Z=0.00 Location: X=377960.97 Y=-77.63 Z=101.31 Normal: X=-0.69 Y=0.23 Z=-0.69 PenetrationDepth:4.140 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_450 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.00.58:700][776]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=4142.91 Y=-1388.80 Z=0.00 Location: X=394907.31 Y=-58.19 Z=101.30 Normal: X=-0.69 Y=0.13 Z=-0.71 PenetrationDepth:3.832 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_470 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.01.03:532][873]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=4542.95 Y=-68.01 Z=0.00 Location: X=411995.75 Y=-234.34 Z=101.43 Normal: X=-0.17 Y=0.78 Z=-0.60 PenetrationDepth:6.761 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_488 Component:rock BoneName:None (5 other events since notify)
+[2018.02.21-11.01.43:830][983]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.01.43:861][983]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.21-11.01.43:880][983]LogPlayLevel: [PlayLevel] Compiling FloorBP before play...
+[2018.02.21-11.01.43:894][983]LogPlayLevel: [PlayLevel]   Compiling RunCharacter as a dependent...
+[2018.02.21-11.01.44:433][983]LogPlayLevel: PlayLevel: Blueprint regeneration took 571 ms (2 blueprints)
+[2018.02.21-11.01.44:433][983]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:01:44 pm)
+[2018.02.21-11.01.44:433][983]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.01.44:435][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002163s)
+[2018.02.21-11.01.44:436][983]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.01.44:436][983]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2018.02.21-11.01.44:437][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003800s)
+[2018.02.21-11.01.44:462][983]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.01.44:474][983]LogInit: FAudioDevice initialized.
+[2018.02.21-11.01.44:518][983]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.01.44:523][983]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.31.44
+[2018.02.21-11.01.44:524][983]LogWorld: Bringing up level for play took: 0.004974
+[2018.02.21-11.01.44:545][983]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 1.234
+[2018.02.21-11.01.44:618][984]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.02.21-11.01.47:506][101]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=482.72 Y=-532.26 Z=0.00 Location: X=3913.26 Y=-113.10 Z=101.09 Normal: X=-0.68 Y=-0.22 Z=-0.70 PenetrationDepth:4.909 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_3 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.01.50:014][204]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1243.64 Y=-144.21 Z=0.00 Location: X=7120.71 Y=-194.04 Z=101.08 Normal: X=-0.17 Y=-0.80 Z=-0.57 PenetrationDepth:1.162 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_6 Component:rock BoneName:None (12 other events since notify)
+[2018.02.21-11.02.55:479][319]BlueprintLog: New page: Compile RunCharacter
+[2018.02.21-11.02.57:953][413]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.02.57:984][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-11.02.57:984][413]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:02:57 pm)
+[2018.02.21-11.02.57:984][413]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.02.57:986][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002028s)
+[2018.02.21-11.02.57:987][413]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.02.57:987][413]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2018.02.21-11.02.57:988][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003654s)
+[2018.02.21-11.02.58:017][413]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.02.58:028][413]LogInit: FAudioDevice initialized.
+[2018.02.21-11.02.58:075][413]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.02.58:077][413]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.32.58
+[2018.02.21-11.02.58:078][413]LogWorld: Bringing up level for play took: 0.002153
+[2018.02.21-11.02.58:103][413]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.792
+[2018.02.21-11.03.19:281][285]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3802.45 Y=-1191.27 Z=0.00 Location: X=93974.83 Y=-213.49 Z=101.19 Normal: X=-0.75 Y=-0.34 Z=-0.57 PenetrationDepth:2.800 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_102 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.03.25:828][555]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3427.61 Y=-187.72 Z=0.00 Location: X=114975.79 Y=-452.99 Z=101.87 Normal: X=-0.73 Y=-0.19 Z=-0.65 PenetrationDepth:4.067 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_127 Component:rock BoneName:None (6 other events since notify)
+[2018.02.21-11.03.31:781][799]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=242.27 Y=-115.90 Z=0.00 Location: X=131956.13 Y=-70.79 Z=101.07 Normal: X=-0.73 Y=-0.13 Z=-0.67 PenetrationDepth:0.553 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_148 Component:rock BoneName:None (2 other events since notify)
+[2018.02.21-11.03.40:877][144]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3180.47 Y=-143.45 Z=0.00 Location: X=161965.78 Y=-233.99 Z=101.09 Normal: X=-0.72 Y=-0.15 Z=-0.68 PenetrationDepth:10.347 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_185 Component:rock BoneName:None (34 other events since notify)
+[2018.02.21-11.03.50:146][458]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=4997.69 Y=-151.98 Z=0.00 Location: X=191974.14 Y=-299.30 Z=101.09 Normal: X=-0.49 Y=-0.02 Z=-0.87 PenetrationDepth:0.858 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_221 Component:rock BoneName:None (1 other events since notify)
+[2018.02.21-11.04.05:513][344]BlueprintLog: New page: Compile RunCharacter
+[2018.02.21-11.04.07:426][408]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.04.07:456][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-11.04.07:456][408]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:04:07 pm)
+[2018.02.21-11.04.07:456][408]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.04.07:458][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2018.02.21-11.04.07:459][408]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.04.07:459][408]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2018.02.21-11.04.07:460][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003825s)
+[2018.02.21-11.04.07:488][408]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.04.07:499][408]LogInit: FAudioDevice initialized.
+[2018.02.21-11.04.07:542][408]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.04.07:544][408]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.34.07
+[2018.02.21-11.04.07:544][408]LogWorld: Bringing up level for play took: 0.002065
+[2018.02.21-11.04.07:568][408]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.256
+[2018.02.21-11.04.14:576][695]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=3053.98 Y=-1191.45 Z=0.00 Location: X=27870.78 Y=-302.84 Z=101.15 Normal: X=-0.84 Y=0.12 Z=-0.53 PenetrationDepth:2.513 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_27 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.06.02:975][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.046
+[2018.02.21-11.06.02:977][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/FloorBP] ([1] browsable assets)...
+[2018.02.21-11.06.02:977][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/FloorBP]
+[2018.02.21-11.06.03:083][527]LogSavePackage: Save=95.09ms
+[2018.02.21-11.06.03:083][527]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/FloorBP_Auto59E51935949E2C67D3459C69990C82AC8.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/FloorBP_Auto5.uasset'
+[2018.02.21-11.06.03:084][527]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/FloorBP_Auto5.uasset
+[2018.02.21-11.06.03:084][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.02.21-11.06.03:160][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.02.21-11.06.03:160][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.02.21-11.06.03:306][527]LogSavePackage: Save=137.12ms
+[2018.02.21-11.06.03:306][527]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/RunCharacter_Auto5F32C16BC4C0101EA81C28DBEB926BB35.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset'
+[2018.02.21-11.06.03:307][527]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset
+[2018.02.21-11.06.03:307][527]LogFileHelpers: Auto-saving content packages took 0.332
+[2018.02.21-11.10.59:535][ 60]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2018.02.21-11.11.09:747][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.21-11.11.18:001][ 60]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.02.21-11.11.31:881][ 60]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0012 seconds. Added 1 classes and 0 folders.
+[2018.02.21-11.11.32:828][ 60]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.21-11.11.53:813][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.21-11.11.54:199][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.02.21-11.16.18:871][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.057
+[2018.02.21-11.16.18:873][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2018.02.21-11.16.18:899][473]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP]
+[2018.02.21-11.16.18:899][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2018.02.21-11.16.19:037][473]LogSavePackage: Save=123.38ms
+[2018.02.21-11.16.19:037][473]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPerson_AnimBP_Auto6B15784D447FE186A4C18AC8310880128.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto6.uasset'
+[2018.02.21-11.16.19:038][473]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto6.uasset
+[2018.02.21-11.16.19:038][473]LogFileHelpers: Auto-saving content packages took 0.166
+[2018.02.21-11.18.14:385][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2018.02.21-11.18.14:523][963]LogSavePackage: Save=131.35ms
+[2018.02.21-11.18.14:523][963]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPerson_AnimBP298607924A62F38956EDCFA81860B613.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2018.02.21-11.18.14:525][963]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2018.02.21-11.18.16:851][ 93]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2018.02.21-11.18.16:884][ 93]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] crouch to Idle/Run  will never be taken, please connect something to  Can Enter Transition
+[2018.02.21-11.18.17:071][ 93]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] [1626.17] Compile of ThirdPerson_AnimBP successful, but with 1 Warning(s) [in 219 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2018.02.21-11.19.50:003][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2018.02.21-11.19.50:143][435]LogSavePackage: Save=134.54ms
+[2018.02.21-11.19.50:143][435]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPerson_AnimBPF72E9D5E46A20380812799A38C08E424.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2018.02.21-11.19.50:145][435]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2018.02.21-11.19.52:398][562]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2018.02.21-11.22.12:978][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2018.02.21-11.22.13:126][805]LogSavePackage: Save=136.74ms
+[2018.02.21-11.22.13:126][805]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPerson_AnimBP725D7F1B43FEED2082912FB3E5BF3E42.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2018.02.21-11.22.13:129][805]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2018.02.21-11.22.15:268][925]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2018.02.21-11.22.17:268][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.22.17:299][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-11.22.17:299][ 22]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:22:17 pm)
+[2018.02.21-11.22.17:299][ 22]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.22.17:302][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2018.02.21-11.22.17:303][ 22]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.22.17:303][ 22]LogPlayLevel: PIE: World Init took: (0.001234s)
+[2018.02.21-11.22.17:304][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004287s)
+[2018.02.21-11.22.17:334][ 22]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.22.17:346][ 22]LogInit: FAudioDevice initialized.
+[2018.02.21-11.22.17:392][ 22]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.22.17:395][ 22]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.52.17
+[2018.02.21-11.22.17:396][ 22]LogWorld: Bringing up level for play took: 0.002493
+[2018.02.21-11.22.17:419][ 22]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush 0.108
+[2018.02.21-11.23.18:163][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPersonCrouch" FILE="../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPersonCrouch.uasset" SILENT=true
+[2018.02.21-11.23.18:199][635]LogSavePackage: Save=25.66ms
+[2018.02.21-11.23.18:199][635]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonCrouch4EA0F6AB45F27C215EC8DDB11AF17190.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPersonCrouch.uasset'
+[2018.02.21-11.23.18:200][635]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/Mannequin/Animations/ThirdPersonCrouch.uasset
+[2018.02.21-11.23.31:782][310]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch
+[2018.02.21-11.23.43:340][958]Cmd: TRANSACTION UNDO
+[2018.02.21-11.23.43:340][958]LogEditorTransaction: Undo Bake Animation
+[2018.02.21-11.23.43:738][958]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-11.23.44:120][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.21-11.23.44:954][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.21-11.23.46:405][ 37]Cmd: TRANSACTION UNDO
+[2018.02.21-11.23.46:405][ 37]LogEditorTransaction: Undo Set Key
+[2018.02.21-11.23.46:412][ 37]LogMaterial: Missing cached shader map for material SkyboxMat, compiling. 
+[2018.02.21-11.23.46:955][ 37]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.02.21-11.23.46:960][ 37]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.02.21-11.23.55:686][369]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.02.21-11.23.55:686][369]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.02.21-11.23.55:686][369]MaterialEditorStats: Texture samplers: 2/16
+[2018.02.21-11.25.16:432][637]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch
+[2018.02.21-11.25.51:269][639]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch
+[2018.02.21-11.26.12:136][736]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch
+[2018.02.21-11.26.38:115][195]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch
+[2018.02.21-11.26.42:320][434]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.26.42:362][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-11.26.42:362][434]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:26:42 pm)
+[2018.02.21-11.26.42:363][434]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.26.42:365][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002330s)
+[2018.02.21-11.26.42:366][434]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.26.42:367][434]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2018.02.21-11.26.42:367][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.004468s)
+[2018.02.21-11.26.42:403][434]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.26.42:415][434]LogInit: FAudioDevice initialized.
+[2018.02.21-11.26.42:453][434]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.26.42:455][434]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.56.42
+[2018.02.21-11.26.42:455][434]LogWorld: Bringing up level for play took: 0.001399
+[2018.02.21-11.26.42:472][434]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.838
+[2018.02.21-11.26.48:122][772]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=1797.29 Y=-147.42 Z=0.00 Location: X=13957.38 Y=168.05 Z=101.11 Normal: X=-0.37 Y=-0.23 Z=-0.90 PenetrationDepth:4.701 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_13 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.27.04:779][725]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.21-11.27.04:807][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-11.27.04:808][725]PIE: New page: PIE session: AsteroidRush (21-Feb-2018 10:27:04 pm)
+[2018.02.21-11.27.04:808][725]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AsteroidRush
+[2018.02.21-11.27.04:810][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002024s)
+[2018.02.21-11.27.04:811][725]LogAIModule: Creating AISystem for world AsteroidRush
+[2018.02.21-11.27.04:811][725]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2018.02.21-11.27.04:811][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AsteroidRush.AsteroidRush to /Game/UEDPIE_0_AsteroidRush.AsteroidRush (0.003582s)
+[2018.02.21-11.27.04:845][725]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-11.27.04:855][725]LogInit: FAudioDevice initialized.
+[2018.02.21-11.27.04:903][725]LogLoad: Game class is 'RunGameMode_C'
+[2018.02.21-11.27.04:906][725]LogWorld: Bringing World /Game/UEDPIE_0_AsteroidRush.AsteroidRush up for play (max tick rate 60) at 2018.02.21-16.57.04
+[2018.02.21-11.27.04:906][725]LogWorld: Bringing up level for play took: 0.001811
+[2018.02.21-11.27.04:931][725]PIE: Play in editor start time for /Game/UEDPIE_0_AsteroidRush -0.381
+[2018.02.21-11.27.20:558][369]LogCharacterMovement: RunCharacter_C_0 is stuck and failed to move! Velocity: X=831.92 Y=-606.76 Z=0.00 Location: X=54995.33 Y=129.66 Z=101.08 Normal: X=-0.49 Y=-0.36 Z=-0.79 PenetrationDepth:0.174 Actor:NODE_AddChildActorComponent-0_Block_BP_C_CAT_56 Component:rock BoneName:None (0 other events since notify)
+[2018.02.21-11.27.29:201][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Block_BP" FILE="../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/Block_BP.uasset" SILENT=true
+[2018.02.21-11.27.29:315][857]LogSavePackage: Save=94.75ms
+[2018.02.21-11.27.29:315][857]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/Block_BP6DA3AD5A45BC62A65436D8A2BACFA819.tmp' to '../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/Block_BP.uasset'
+[2018.02.21-11.27.29:333][857]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Content/ThirdPersonBP/Blueprints/Block_BP.uasset
+[2018.02.21-11.27.55:329][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AsteroidRush' took 0.063
+[2018.02.21-11.27.55:330][ 15]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonCrouch] ([1] browsable assets)...
+[2018.02.21-11.27.55:361][ 15]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonCrouch.ThirdPersonCrouch]
+[2018.02.21-11.27.55:361][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonCrouch]
+[2018.02.21-11.27.55:392][ 15]LogSavePackage: Save=24.10ms
+[2018.02.21-11.27.55:392][ 15]LogSavePackage: Moving '../../../../Unreal Projects/AsteroidRush/Saved/ThirdPersonCrouch_Auto7F2BF159840F02F2875F5C0A48A9762CC.tmp' to '../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonCrouch_Auto7.uasset'
+[2018.02.21-11.27.56:238][ 15]LogSavePackage: Display: Finished SavePackage ../../../../Unreal Projects/AsteroidRush/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonCrouch_Auto7.uasset
+[2018.02.21-11.27.56:238][ 15]LogFileHelpers: Auto-saving content packages took 0.909
+[2018.02.21-11.45.11:533][303]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.21-11.49.54:081][734]SourceControl: Source control is disabled
